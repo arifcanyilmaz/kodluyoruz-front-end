@@ -1,1 +1,59 @@
 # kodluyoruzfrontend
+
+En Çok Kullanılan Etiketler
+<html> -> Her şeyi kapsar.
+<head> -> Görünmeyen kodlar.
+<body> -> Sayfanın içeriğinin olduğu kısım.
+<Title> -> Sekme kısmında yazacak isim.
+<meta> -> Sayfanın belli özelliklerini yazmaya yarar.
+<h> -> Başlık,h1,h2,h3,h4.
+<p> -> Paragraf.
+<Strong> / <B> ->  kalın yazar.
+<script> -> javascript kodlarını yazmamızı sağlar.
+<img> -> resim eklemek için kullanılır.
+<iframe> -> Belge içinde belge göstermeye yarar.
+<!-- --> -> Yorum Satırı
+<Style> -> Etiketi satır içerisinde özellik eklmemize yarar.
+<link> -> Başka sayfalardan dökümanları sayfamıza eklememize yarar.
+<ol type="I"> -> Sıralı Listeleme.
+<ul> -> Sırasız Listemele.
+<li> -> Liste elemanı.
+<a> -> Yönlendirme(link).
+<!DOCTYPE html> -> HTML5 icin gerekir.
+
+**************************************************
+
+ÖRNEK GÖRSEL KULLANIMI
+<img src=resim.jpg width="300"> 
+Not: Bunu link şeklinde yazabiliriz de. Javascript ile alert şeklinde de
+yazılabilir. Border,align,width,height gibi özellikler eklenebilir.
+
+
+**************************************************
+
+ÖRNEK LİNK KULLANIMI
+<a href="mailto:info@kodluyoruz.org"> Kodluyoruz'a mail atınız. </a>
+<a href="#sonbolum">Sayfa Sonu</a> Aynı sayfa içinde bir yere gitmemizi sağlar. 
+
+
+**************************************************
+
+Not: Blok ve Inline elementler vardır. Bazı etiketler tüm satırı kaplarken bazıları 
+inlinedır sadece oldugu kadarını kaplar.
+
+
+**************************************************
+
+ID VE CLASS
+Id uniquetir. Sadece bir tane olur. # işareti ile de css dosyasında özelliklerini girebiliriz. Id isimlendirmelerinde boşluk olamaz.Tire
+veya camelcase ile yazılır. data-id veya data-section gibi farklı kullanımları da vardır. Daha iyi organize etmek için kullanılır.
+
+Class birden fazla olabilir. '.' İşareti ile özelliklerini gireriz.
+İsimlendirilmelerinde boşluk olabilir. 
+
+
+**************************************************
+
+SEMANTİC WEB ETİKETLERİ
+Header,nav,section,article,footer.
+
