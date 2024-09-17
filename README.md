@@ -12,7 +12,8 @@ En Çok Kullanılan Etiketler
 <script> -> javascript kodlarını yazmamızı sağlar.
 <img> -> resim eklemek için kullanılır.
 <iframe> -> Belge içinde belge göstermeye yarar.
-<!-- --> -> Yorum Satırı
+<!-- --> -> Yorum Satırı   
+Control Ö seçilen satırı yorum satırı yapar.
 <Style> -> Etiketi satır içerisinde özellik eklmemize yarar.
 <link> -> Başka sayfalardan dökümanları sayfamıza eklememize yarar.
 <ol type="I"> -> Sıralı Listeleme.
@@ -20,6 +21,7 @@ En Çok Kullanılan Etiketler
 <li> -> Liste elemanı.
 <a> -> Yönlendirme(link).
 <!DOCTYPE html> -> HTML5 icin gerekir.
+
 
 **************************************************
 
@@ -57,3 +59,14 @@ Class birden fazla olabilir. '.' İşareti ile özelliklerini gireriz.
 SEMANTİC WEB ETİKETLERİ
 Header,nav,section,article,footer.
 
+
+
+************************************************
+
+CSS İÇİN ÖNEMLİ BİLGİ
+
+Inline --> satır içinde yazılan style özelliğidir. 
+Internal ---> Head içinde yazılan style özelliğidir.
+External ---> css dosyası içinde yazılan style özelliğidir. 
+
+Inline > Internal > External (Ezme sırası)
