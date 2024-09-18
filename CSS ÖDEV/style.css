@@ -1,0 +1,70 @@
+#first-Id {
+    text-align:left;
+    margin-left: 10%;
+    padding-top: 15;
+}
+
+#main-id {
+    margin-bottom: 20%;
+}
+
+#first-h3 {
+    color: #86AB89;
+    
+}
+
+#second-h3 {
+    color: #8EACCD;
+}
+
+#third-h3 {
+    color: #C75B7A;
+}
+
+
+.liste  {
+    font-size: 25;
+}
+
+body {
+    background-color: #DEE5D4;
+    text-align: center;
+    font-family: "Montserrat", system-ui;
+}
+
+h1 {
+    color: #8EACCD;
+    font-size: 100;
+}
+
+h2 {
+    color: #C75B7A;
+    font-size: 50;
+}
+
+h3 {
+    font-size: 35;
+}
+
+p {
+    font-size: 21;
+    line-height: 2;
+    padding-left: 30%;
+    padding-right: 30%;
+    text-align:inherit;
+    word-break: break-word;
+}
+
+a {
+    color: #3C3D37;
+    font-size: 25;
+    font-weight: 700;
+    padding: 15px;
+    
+}
+
+a:hover{
+    color: #8EACCD;
+}
+
+
