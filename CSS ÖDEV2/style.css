@@ -1,0 +1,62 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20;
+    text-align: center;
+}
+
+/******************************GRİ KISIM******************************/
+
+.container-search{
+    width: 317;
+    height: 21;
+    border: 1px solid black;
+    border-radius: 1%;
+}
+
+.container{
+    width: 1896;
+    height: 80; 
+    margin:auto;
+}
+
+/******************************MAVİ KISIM******************************/
+
+.container-two{
+    float: left;
+    margin: 6 6 0 0;
+    
+}
+
+#first-box{
+    width: 40%;
+    height: 80; 
+}
+
+#second-box{
+    width: 19%;
+    height: 80; 
+}
+
+#third-box{
+    width: 40%;
+    height: 80;
+}
+
+/******************************RENK SINIFLARI******************************/
+
+.bg-lightgray{
+    background-color: rgb(238, 238, 238);
+
+}
+
+.bg-aqua{
+    background-color: #7EE5DA;
+}
+
+.bg-aqua-two{
+    background-color: #70CCC2;
+}
+
+.bg-aqua-three{
+    background-color: #62B3AA;
+}
