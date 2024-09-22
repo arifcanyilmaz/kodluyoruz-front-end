@@ -14,7 +14,7 @@ body{
 }
 
 .container{
-    width: 1896;
+    width: 90%;
     height: 80; 
     margin:auto;
 }
@@ -22,24 +22,31 @@ body{
 /******************************MAVİ KISIM******************************/
 
 .container-two{
-    float: left;
-    margin: 6 6 0 0;
-    
+    width: 90%;
+    height: 80;
+    margin: auto;
+    margin-top: 6;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
 }
 
 #first-box{
-    width: 40%;
+    width: 35%;
     height: 80; 
+    margin-right: 3;
 }
 
 #second-box{
-    width: 19%;
+    width: 30%;
     height: 80; 
+    margin: 0 3 0 3;
 }
 
 #third-box{
-    width: 40%;
+    width: 35%;
     height: 80;
+    margin-left: 3;
 }
 
 /******************************RENK SINIFLARI******************************/
