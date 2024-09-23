@@ -70,3 +70,22 @@ Internal ---> Head içinde yazılan style özelliğidir.
 External ---> css dosyası içinde yazılan style özelliğidir. 
 
 Inline > Internal > External (Ezme sırası)
+
+
+display: none;
+/* Elemanı sayfadan tamamen kaldırır */
+
+display: block;
+/* Elemente blok seviyesi elementlerin (<div>, <header>, <h1> gibi) görünüm özelliğini kazandırır. */
+
+display: inline;
+/* Elemente <span>, <a>, <img> elementlerinde olduğu gibi, satır içi yerleşim özelliği kazandırır. Element satırı tamamen kaplamaz, içeriği kadar yer kaplar. */
+
+display: inline-block;
+/* Elementleri satır içi element gibi yan yana dizmek için kullanılır. */
+
+display: flex;
+/* Element inline element gibi davranır ve bunun yanında flexbox modeline uygun görünüme sahip olur. */
+
+display: grid;
+/* Element, blok level bir element gibi davranır ve grid model görünümüne uygun davranır. */
