@@ -1,0 +1,20 @@
+body{
+    font-family: 'Montserrat';
+    background-color: rgb(219, 227, 233);
+}
+
+.price{
+    font-style: italic;
+    color: #DC143C;
+}
+
+.product-border{
+    width: 18rem; 
+    border-width: 2px;
+    border-color: #d1d1d1;
+}
+
+.hakkimizda-pic{
+    width: 500px;
+    height: 600px;
+}
