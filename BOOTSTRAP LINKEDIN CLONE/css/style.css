@@ -1,8 +1,27 @@
+/********** NAVBAR ********* */
 .navbarbg {
-  height: 55px;
+  height: 65px;
   background-color: white;
+  text-align: center;
+  border-width: 10px;
+}
+.navbar-brand {
+  margin-left: 8%;
+  /* margin-top: 5px; */
 }
 
+.navbar-collapse {
+  margin-left:14%;
+  /* margin-top: 5px; */
+}
+
+.nav-item {
+  font-size: 13px;
+}
+
+/********** NAVBAR ENDS ********* */
+
+/********** INPUT AREA ********* */
 input.searche {
   height: 36px;
   max-width: 500px;
@@ -10,13 +29,26 @@ input.searche {
   border: 0;
 }
 
+input::placeholder{
+  padding-left: 23px;
+}
+
 input.searche::placeholder {
   font-size: 14px;
   color: gray;
-  background-image: url(/bootstraplinkedinclone/assets/search-solid.svg);
+  background-image: url('../assets/search-solid.svg');
   background-repeat: no-repeat;
-  background-size: 7%;
+  background-size: 8%;
+  background-position:1px;
+  
 }
+/********** INPUT AREA ENDS ********* */
+
+.card-header {
+  text-align: center;
+}
+
+
 
 .body {
   background-color: #f3f2ef;
@@ -49,6 +81,13 @@ button.mediatext:hover {
   color: #5f5f5f;
 }
 
+.black-link {
+  color: black;
+}
+.black-link:hover{
+  color: black;
+}
+
 i {
   color: gray;
   margin-top: 8px;
@@ -65,7 +104,7 @@ input.content::placeholder {
   font-weight: bolder;
   font-size: 14px;
   font-family: Arial, Helvetica, sans-serif;
-  background-image: url(/bootstraplinkedinclone/assets/edit-regular.svg);
+  background-image: url(../assets/edit-regular.svg);
   background-repeat: no-repeat;
   background-size: auto;
 }
@@ -110,6 +149,8 @@ li {
 
 button.ref {
   color: white;
+  text-align: center;
+  border-radius: 10px;
 }
 
 button.ref:hover {
@@ -120,6 +161,7 @@ button.ref:hover {
   border-radius: 50%;
   width: 50px;
   height: 50px;
+  float: left;
 }
 .posttext {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
@@ -128,3 +170,4 @@ button.ref:hover {
   font-size: 14px;
   margin-left: 8px;
 }
+
